@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
 
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/mrousavy/react-native-tracking-transparency.git", :tag => "#{s.version}" }
+  s.ios.deployment_target  = '12.4'
 
   
   s.source_files = "ios/**/*.{h,m,mm}"
